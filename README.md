@@ -1,18 +1,18 @@
-# 🎮 Piedra, Papel o Tijera (Web App)
+# 🎮 Juego: Piedra, Papel o Tijera
 
-Una aplicación web interactiva del clásico juego "Piedra, Papel o Tijera", desarrollada en Python utilizando Streamlit. 
+Esta es una aplicación web interactiva desarrollada con **Python** y **Streamlit**.
 
-## ✨ Características Extra
-- **Interfaz Gráfica Web:** Interfaz limpia y responsiva mediante Streamlit.
-- **Sistema de Puntuación:** Lleva un registro en vivo de las victorias del usuario y de la computadora usando el `session_state`.
-- **Feedback Visual:** Uso de emojis y alertas de colores (verde para victoria, rojo para derrota, azul para empate).
+## 📋 Requisitos
+- Python instalado.
+- Librería Streamlit (`py -m pip install streamlit`).
 
-## 🚀 Cómo ejecutar el juego localmente
+## 🕹️ Cómo jugar
+1. Descarga o clona este repositorio.
+2. Abre una terminal en la carpeta del proyecto.
+3. Ejecuta el comando: `py -m streamlit run app.py`.
+4. Elige entre Piedra, Papel o Tijera y ¡mira quién gana!
 
-### Prerrequisitos
-Asegúrate de tener instalado [Python](https://www.python.org/) en tu sistema.
-
-### Instalación
-1. Clona este repositorio:
-   ```bash
-   git clone [https://github.com/TU_USUARIO/piedra-papel-tijera.git](https://github.com/TU_USUARIO/piedra-papel-tijera.git)
+## ✨ Características adicionales
+- Interfaz moderna con botones.
+- Marcador de puntaje en tiempo real que se mantiene durante la sesión.
+- Mensajes visuales con colores para resultados.
